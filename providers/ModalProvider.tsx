@@ -15,10 +15,10 @@ const ModalProvider = () => {
     return null;
   }
   return (
-   <>
-   <AuthModal />
-   <UploadModal />
-   </>
+    <>
+      <AuthModal />
+      <UploadModal />
+    </>
   );
 };
 
