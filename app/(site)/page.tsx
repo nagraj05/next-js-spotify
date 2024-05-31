@@ -9,7 +9,7 @@ export default async function Home() {
   const songs = await getSongs();
 
   return (
-    <div>
+    <div className="h-full">
       <div
         className="bg-neutral-900 
       rounded-lg 
